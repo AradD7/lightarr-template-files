@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>Lightarr</Name>
+    <Repository>aradd7/lightarr:latest</Repository>
+    <Registry/>
+    <Network>bridge</Network>
+    <MyIP/>
+    <Shell>sh</Shell>
+    <Privileged>false</Privileged>
+    <Support/>
+    <Project/>
+    <ReadMe/>
+    <Overview/>
+    <Category/>
+    <WebUI>http://[IP]:[PORT:10100]</WebUI>
+    <TemplateURL/>
+    <Icon/>
+    <ExtraParams/>
+    <PostArgs/>
+    <CPUset/>
+    <DateInstalled>1770335401</DateInstalled>
+    <DonateText/>
+    <DonateLink/>
+    <Requires/>
+    <Config Name="Plex Authentication Token" Target="X_PLEX_TOKEN" Default="" Mode="" Description="Your plex auth token. Get it from https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/" Type="Variable" Display="always" Required="false" Mask="false">71Q31zUy8kUk7x5rUkkv</Config>
+    <Config Name="WIZ Subnet" Target="WIZ_SUBNET" Default="192.168.0.1/24" Mode="" Description="Network subnet to scan for Wiz bulbs. Change if your network uses a different range (e.g., 192.168.0.0/24, 10.0.0.0/24)" Type="Variable" Display="always" Required="false" Mask="false">10.88.111.0/24</Config>
+    <Config Name="Lightarr Wub UI" Target="10100" Default="10100" Mode="tcp" Description="Web UI for configuring lightarr" Type="Port" Display="always" Required="false" Mask="false">10100</Config>
+    <Config Name="AppData" Target="/data" Default="/mnt/user/appdata/lightarr" Mode="rw" Description="Lightarr configs and data (such as rules, bulbs, etc)" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lightarr</Config>
+    <TailscaleStateDir/>
+</Container>
