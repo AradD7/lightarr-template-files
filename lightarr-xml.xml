@@ -2,23 +2,23 @@
 <Container version="2">
     <Name>Lightarr</Name>
     <Repository>aradd7/lightarr:latest</Repository>
-    <Registry/>
+    <Registry>https://hub.docker.com/r/aradd7/lightarr</Registry>
     <Network>bridge</Network>
     <MyIP/>
     <Shell>sh</Shell>
     <Privileged>false</Privileged>
     <Support>https://forums.unraid.net/topic/197057-lightarr-support-thread/</Support>
-    <Project/>
+    <Project>https://github.com/AradD7/lightarr</Project>
     <ReadMe/>
-    <Overview/>
-    <Category/>
+    <Overview>Lightarr is a home automation tool that connects your Plex server to your Wiz light bulbs. Add this lightweight and simple to use app to your *arr collection and enjoy!</Overview>
+    <Category>HomeAutomation:</Category>
     <WebUI>http://[IP]:[PORT:10100]</WebUI>
     <TemplateURL/>
-    <Icon/>
+    <Icon>https://raw.githubusercontent.com/AradD7/lightarr-template-files/refs/heads/main/lightarr-logo-v0.9.png</Icon>
     <ExtraParams/>
     <PostArgs/>
     <CPUset/>
-    <DateInstalled>1770335401</DateInstalled>
+    <DateInstalled>1770490330</DateInstalled>
     <DonateText/>
     <DonateLink/>
     <Requires/>
