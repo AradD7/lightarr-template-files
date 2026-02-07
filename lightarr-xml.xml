@@ -7,7 +7,7 @@
     <MyIP/>
     <Shell>sh</Shell>
     <Privileged>false</Privileged>
-    <Support/>
+    <Support>https://forums.unraid.net/topic/197057-lightarr-support-thread/</Support>
     <Project/>
     <ReadMe/>
     <Overview/>
