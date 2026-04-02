@@ -10,7 +10,8 @@
     <Support>https://forums.unraid.net/topic/197057-lightarr-support-thread/</Support>
     <Project>https://github.com/AradD7/lightarr</Project>
     <ReadMe/>
-    <Overview>Lightarr is a home automation tool that connects your Plex server to your Wiz light bulbs. Add this lightweight and simple to use app to your *arr collection and enjoy!</Overview>
+    <Overview>Lightarr is a home automation tool that connects your Plex server to your Wiz light bulbs. Add this lightweight and simple to use app to your *arr collection and enjoy! 
+        For a video guide check out [a href='https://youtu.be/4YhPkRt-W6o']my video on YouTube[/a]</Overview>
     <Category>HomeAutomation:</Category>
     <WebUI>http://[IP]:[PORT:10100]</WebUI>
     <TemplateURL/>
